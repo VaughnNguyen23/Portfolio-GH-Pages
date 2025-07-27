@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script type="module" crossorigin src="/assets/index-CmZYCNy5.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-ff9YSyro.css">
+</head>
+
+<body class="bg-radial from-stone-950 via-neutral-900 to-stone-950 ... text-neutral-300">
+  <!-- Nav Section -->
+  <section class="mx-auto my-4 max-w-7xl px-2">
+    <nav class="flex justify-between ">
+      <div class="flex">
+        <span class="text-2xl">VN</span>
+      </div>
+      <div class="flex-row gap-6">
+        <a class="rounded px-4 py-3 hover:bg-neutral-800" href="projects.html">Projects</a>
+        <a class="rounded px-4 py-3 hover:bg-neutral-800" href="about.html">About</a>
+        <a class="rounded px-4 py-3 hover:bg-neutral-800" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </section>
+  <!-- Main Section -->
+  <main class="flex flex-row items-center min-h-screen w-full h-full justify-between">
+    <section class="w-full max-w-6xl mt-12 p-8 mx-auto">
+      <div class="flex max-w-2xl flex-row-reverse">
+        <div class="px-4 sm:pl-0">
+          <model-viewer src="models/cpu.glb" alt="3D Blue LED" auto-rotate shadow-intensity="2"
+            class="w-full object-cover md:h-full md:w-64"></model-viewer>
+        </div>
+        <div class="font-semibold tracking-wide uppercase px-4 sm:px-0">
+          <h2 class="flex-col text-6xl font-semibold mb-6 gap-4">
+            <div>Vaughn</div>
+            <div>Nguyen</div>
+          </h2>
+          <div class="mt-2 text-neutral-300">
+            QA Engineer | Robotics | Tech
+          </div>
+          <div>Seattle, WA</div>
+          <div class="flex md:flex-row sm:flex-col gap-4 mt-6">
+            <a href="projects.html">
+              <button class="px-6 py-2 opacity-45 rounded-2xl hover:bg-neutral-800 transition-colors">
+                Check Out Projects
+              </button>
+            </a>
+            <a href="contact.html">
+              <button class="px-6 py-2 opacity-45 rounded-2xl hover:bg-neutral-800 transition-colors">
+                Contact
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- <script src="src/main.js"></script> -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+
+</html>
